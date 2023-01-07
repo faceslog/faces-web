@@ -10,8 +10,13 @@ export default {
       // OG Embed
       {
         property: 'og:title',
-        content: 'Faceslog Portfolio',
+        content: 'Faceslog',
         hid: 'og:title'
+      },
+      {
+        property: 'og:type',
+        content: 'website',
+        hid: 'og:type'
       },
       {
         property: 'og:description',
@@ -28,11 +33,11 @@ export default {
         content: 'https://faceslog.com/landing/profile.webp',
         hid: 'og:image'
       },
-      {
-        property: 'og:title',
-        content: 'Test title',
-        hid: 'og:title'
-      },
+      { hid: 'description', name: 'description', content: "Faceslog's website (Made with love), learn more about who is faceslog" },
+      { name: 'keywords', content: "faceslog website whois faces computer science development" },
+      { name: 'author', content: 'Faceslog' },
+      { name: 'copyright', content: 'Faceslog.com' },
+      { name: 'robots', content: 'index,follow' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
