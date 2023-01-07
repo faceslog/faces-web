@@ -23,8 +23,6 @@
     <div class="w-full h-44">
       <iframe class="w-full h-full" src="https://github-readme-stats.vercel.app/api/top-langs/?username=faceslog&layout=compact&theme=github_dark" title="Most Used Languages"></iframe>
     </div>
-    
-    <div class="text-white text-sm mt-2 italic">*Stats from my public repositories on GitHub.</div>
   </section>
 </template>
 

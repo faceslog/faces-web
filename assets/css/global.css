@@ -1,7 +1,7 @@
 :root {
   --main-color: #1B1919;
   --alt-color: #555;
-  --color1: #3b90b8;
+  --color1: #19dbe9;
   --color2: #04CCF8;
   --linear-color: -webkit-linear-gradient(var(--color1), var(--color2));
 }
@@ -47,6 +47,7 @@ body {
 
 .text-gradient {
   background: var(--linear-color);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

@@ -19,6 +19,7 @@
     "nuxt": "^2.15.8"
   },
   "devDependencies": {
+    "@nuxt/image": "^0.7.1",
     "@nuxtjs/tailwindcss": "^4.2.0",
     "glob-parent": "^6.0.2",
     "nth-check": "^2.1.1",

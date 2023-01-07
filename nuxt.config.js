@@ -25,7 +25,7 @@ export default {
       },
       {
         property: 'og:image',
-        content: 'https://faceslog.com/landing/profile.png',
+        content: 'https://faceslog.com/landing/profile.webp',
         hid: 'og:image'
       },
       {
@@ -34,7 +34,6 @@ export default {
         hid: 'og:title'
       },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Faceslog\'s website developed with NuxtJS & Tailwind CSS' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -52,6 +51,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxt/image',
   ],
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -67,6 +67,8 @@ export default {
   server: {
     port: process.env.PORT || 3000, // default: 3000
     host: process.env.HOST || 'localhost' // default: localhost
+  },
+  image: {    // Options  
   },
   // Server MiddleWare Custom Api Endpoint
   serverMiddleware: [
