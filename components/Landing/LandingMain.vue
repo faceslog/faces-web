@@ -61,7 +61,7 @@
       return {
         typeValue: '',
         typeStatus: false,
-        typeArray: [ "Computer Science Student", "Software Development", "Reverse Engineering", "Privacy Oriented Sofware", "Self-Hosting", "Photography" ],
+        typeArray: [ "Computer Science Student", "Software Development", "Reverse Engineering", "Self-Hosting", "Photography" ],
         typingSpeed: 100,
         erasingSpeed: 100,
         newTextDelay: 2000,
