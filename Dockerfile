@@ -1,4 +1,4 @@
-FROM node:12.22.12-alpine
+FROM node:16.19.0-alpine
 
 # Create app directory
 RUN mkdir -p /usr/src/faces-webpage/
