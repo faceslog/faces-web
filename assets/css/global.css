@@ -1,0 +1,56 @@
+:root {
+  --main-color: #1B1919;
+  --alt-color: #555;
+  --color1: #3b90b8;
+  --color2: #04CCF8;
+  --linear-color: -webkit-linear-gradient(var(--color1), var(--color2));
+}
+
+body {
+  background-color: var(--main-color);
+  user-select: none;
+}
+
+/* --- SCROLLBAR START --- */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--alt-color);
+  border-radius: 0.375rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+/* --- SCROLLBAR END --- */
+
+.bg-alt-color {
+  background: var(--alt-color);
+}
+
+.bg-color2 {
+  background: var(--color2);
+}
+
+.border-color2 {
+  border-color: var(--color2);
+}
+
+.text-gradient {
+  background: var(--linear-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-color2 {
+  color: var(--color2);
+}
