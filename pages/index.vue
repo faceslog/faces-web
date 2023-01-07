@@ -3,7 +3,6 @@
     <LandingMain/>
     <LandingAbout/>
     <LandingProjects/>
-   <!--  <LandingServices/> -->
     <LandingContact/>
   </main>
 </template>
@@ -13,7 +12,6 @@
   import LandingAbout from "../components/Landing/LandingAbout.vue";
   import LandingProjects from "../components/Landing/LandingProjects.vue";
   import LandingContact from "../components/Landing/LandingContact.vue";
-  import LandingServices from "../components/Landing/LandingServices.vue";
 
   export default {
     components:
@@ -21,8 +19,7 @@
       LandingMain,
       LandingAbout,
       LandingProjects,
-      LandingContact,
-      LandingServices
+      LandingContact
     }
   }
 
