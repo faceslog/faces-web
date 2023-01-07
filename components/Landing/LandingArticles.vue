@@ -1,8 +1,8 @@
 <template>
-  <section id="projects" class="lg:px-40 pb-10 px-6">
+  <section id="articles" class="lg:px-40 pb-10 px-6">
     <div>
       <!-- Title -->
-      <div class="text-white text-5xl font-bold pb-12">Projects.</div>
+      <div class="text-white text-5xl font-bold pb-12">Articles.</div>
 
       <!-- Projects Container -->
       <div v-for="(project, index) in projects" :key="index" class="text-white cursor-pointer">
@@ -26,7 +26,7 @@
 
 <script>
   export default {
-      name: "LandingProjects",
+      name: "LandingArticles",
       data()
       {
         return {

@@ -39,7 +39,7 @@
       </div>
 
       <div class="px-8 py-6 cursor-pointer">
-        <a href="#projects">projects.</a>
+        <a href="#articles">articles.</a>
       </div>
 
       <!--<div class="px-8 py-6 cursor-pointer">

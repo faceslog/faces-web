@@ -2,7 +2,7 @@
   <main>
     <LandingMain/>
     <LandingAbout/>
-    <LandingProjects/>
+    <LandingArticles/>
     <LandingContact/>
   </main>
 </template>
@@ -10,7 +10,7 @@
 <script>
   import LandingMain from "../components/Landing/LandingMain.vue";
   import LandingAbout from "../components/Landing/LandingAbout.vue";
-  import LandingProjects from "../components/Landing/LandingProjects.vue";
+  import LandingArticles from "../components/Landing/LandingArticles.vue";
   import LandingContact from "../components/Landing/LandingContact.vue";
 
   export default {
@@ -18,7 +18,7 @@
     {
       LandingMain,
       LandingAbout,
-      LandingProjects,
+      LandingArticles,
       LandingContact
     }
   }
