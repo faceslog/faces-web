@@ -11,7 +11,7 @@
       <!-- Email Contact Form Box -->
       <div class="lg:flex container items-center justify-evenly mx-auto">
         <div>
-          <nuxt-img class="lg:h-1/4 lg:w-1/4 h-44 w-44 mx-auto mb-6" alt="email-logo" src="landing/email.svg"/>
+          <img class="lg:h-1/4 lg:w-1/4 h-44 w-44 mx-auto mb-6" alt="email-logo" src="landing/email.svg"/>
           <!-- Form -->
           <form @submit.prevent="submitForm" class="lg:w-1/2 items-center w-full mx-auto mb-6">
 

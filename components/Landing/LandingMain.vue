@@ -3,7 +3,7 @@
   <section class="lg:flex items-center justify-evenly min-h-screen">
     <section class="lg:flex">
       <!-- Profile Picture -->
-      <nuxt-img class="lg:flex-auto lg:inline lg:w-64 lg:h-64 lg:mt-0 w-56 h-56 mt-16 mx-auto object-cover rounded-full" src="landing/profile.webp" alt="Profile image"/>
+      <img class="lg:flex-auto lg:inline lg:w-64 lg:h-64 lg:mt-0 w-56 h-56 mt-16 mx-auto object-cover rounded-full" src="landing/profile.webp" alt="Profile image"/>
       <div class="lg:flex-auto py-6 px-12">
         <!-- Titles -->
         <div class="pb-8">
@@ -20,13 +20,13 @@
           <!-- Github Logo -->
           <div class="mx-auto flex">
             <div class="lg:mr-16 mr-10 flex-auto">
-              <a href="https://github.com/faceslog"><nuxt-img class="lg:h-16 lg:w-16 w-10 h-10 cursor-pointer" src="logo/github.webp" alt="github-logo" /></a>
+              <a href="https://github.com/faceslog"><img class="lg:h-16 lg:w-16 w-10 h-10 cursor-pointer" src="logo/github.webp" alt="github-logo" /></a>
             </div>
             <div class="lg:mr-16 mr-10 flex-auto">
-              <a href="https://gitlab.com/faceslog"><nuxt-img class="lg:h-16 lg:w-16 w-10 h-10 cursor-pointer" src="logo/gitlab.webp" alt="gitlab-logo" /></a>
+              <a href="https://gitlab.com/faceslog"><img class="lg:h-16 lg:w-16 w-10 h-10 cursor-pointer" src="logo/gitlab.webp" alt="gitlab-logo" /></a>
             </div>
             <div class="flex-auto">
-              <a href="https://twitter.com/faceslog"><nuxt-img class="lg:h-16 lg:w-16 w-10 h-10 cursor-pointer" src="logo/twitter.webp" alt="twitter-logo" /></a>
+              <a href="https://twitter.com/faceslog"><img class="lg:h-16 lg:w-16 w-10 h-10 cursor-pointer" src="logo/twitter.webp" alt="twitter-logo" /></a>
             </div>
           </div>
         </div>

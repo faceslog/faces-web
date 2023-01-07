@@ -51,7 +51,6 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    '@nuxt/image',
   ],
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -67,8 +66,6 @@ export default {
   server: {
     port: process.env.PORT || 3000, // default: 3000
     host: process.env.HOST || 'localhost' // default: localhost
-  },
-  image: {    // Options  
   },
   // Server MiddleWare Custom Api Endpoint
   serverMiddleware: [
