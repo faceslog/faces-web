@@ -27,5 +27,3 @@ $ bash website.sh [start|stop|restart|status]
 # Build image
 $ docker build -t faces-web .
 ```
-
-**TO DO: ADD DOCKER COMPOSE TEMPLATE !!**
