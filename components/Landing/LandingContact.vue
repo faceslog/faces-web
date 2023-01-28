@@ -8,7 +8,7 @@
         <div class="text-md font-semibold mb-5">Mastodon: <span class="font-light">@faces@mstdn.social</span></div>
         <div class="text-md font-semibold mb-5">Twitter: <a class="font-light underline" href="https://twitter.com/faceslog">faceslog‌‌</a></div>
         <div class="text-md font-semibold mb-5">Discord: <span class="font-light">faceslog#6851</span></div>
-        <div class="text-md font-semibold mb-5">Session: <span class="font-light">059acd4a8253f815cb827574a62ee80a079be5145ad55309c41e9eb2d287412715</span></div>
+        <div class="text-md font-semibold mb-5 break-all">Session: <span class="font-light">059acd4a8253f815cb827574a62ee80a079be5145ad55309c41e9eb2d287412715</span></div>
         <div class="text-md font-semibold mb-5">Email: <span class="font-light">Please, use the form below</span></div>
       </div>      
       <!-- Email Contact Form Box -->
@@ -16,7 +16,7 @@
         <div>
           <img class="lg:h-1/5 lg:w-1/5 h-40 w-40 mx-auto mb-6" alt="email-logo" src="landing/email.svg"/>
           <!-- Form -->
-          <form @submit.prevent="onSubmit" class="lg:w-1/2 items-center w-9/12 mx-auto mb-6">
+          <form @submit.prevent="onSubmit" class="lg:w-1/2 md:w-9/12 w-full items-center mx-auto mb-6">
 
             <div v-if="errors.length" class="text-center text-sm mb-2">
               <strong class="text-red-400">Please correct the following error(s):</strong>
