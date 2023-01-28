@@ -1,8 +1,8 @@
 :root {
-  --main-color: #1B1919;
-  --alt-color: #555;
+  --main-color: #1a1818;
+  --alt-color: rgb(49, 49, 49);
   --color1: #19dbe9;
-  --color2: #04CCF8;
+  --color2: #32cef1;
   --linear-color: -webkit-linear-gradient(var(--color1), var(--color2));
 }
 

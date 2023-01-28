@@ -8,7 +8,7 @@
         <!-- Titles -->
         <div class="pb-8">
           <div class="lg:text-left text-center text-white text-lg uppercase pb-4">Hi, There 👋</div>
-          <div class="lg:text-left lg:text-6xl text-center text-5xl text-white font-bold pb-4">Faceslog.</div>
+          <div class="lg:text-left lg:text-6xl text-center text-5xl text-white font-bold pb-4">Faceslog</div>
           <div class="lg:text-left text-center text-2xl font-bold text-gradient pb-4">
             <span class="typed-text">{{ typeValue }}</span>
             <span class="cursor" :class="{'typing': typeStatus}">&nbsp;</span>
@@ -17,37 +17,32 @@
 
         <!-- Logo Box -->
         <div class="flex">
-          <!-- Github Logo -->
           <div class="mx-auto flex">
             <div class="lg:mr-16 mr-10 flex-auto">
-              <a href="https://github.com/faceslog"><img class="lg:h-16 lg:w-16 w-10 h-10 cursor-pointer" src="logo/github.webp" alt="github-logo" /></a>
+              <a href="https://github.com/faceslog"><img class="lg:h-14 lg:w-14 w-12 h-12 cursor-pointer" src="logo/github.webp" alt="github-logo" /></a>
             </div>
             <div class="lg:mr-16 mr-10 flex-auto">
-              <a href="https://gitlab.com/faceslog"><img class="lg:h-16 lg:w-16 w-10 h-10 cursor-pointer" src="logo/gitlab.webp" alt="gitlab-logo" /></a>
+              <a href="https://gitlab.com/faceslog"><img class="lg:h-14 lg:w-14 w-12 h-12 cursor-pointer" src="logo/gitlab.webp" alt="gitlab-logo" /></a>
             </div>
             <div class="flex-auto">
-              <a href="https://twitter.com/faceslog"><img class="lg:h-16 lg:w-16 w-10 h-10 cursor-pointer" src="logo/twitter.webp" alt="twitter-logo" /></a>
+              <a href="https://twitter.com/faceslog"><img class="lg:h-14 lg:w-14 w-12 h-12 cursor-pointer" src="logo/twitter.webp" alt="twitter-logo" /></a>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Menu -->
-    <section class="xl:inline-block hidden px-20 text-white text-4xl font-extrabold lowercase">
+    <section class="xl:inline-block hidden px-20 text-white text-4xl font-bold lowercase">
       <div class="px-8 py-6 cursor-pointer">
-        <a href="#about">about.</a>
+        <a href="#about">about</a>
       </div>
 
       <div class="px-8 py-6 cursor-pointer">
-        <a href="#articles">articles.</a>
+        <a href="#articles">articles</a>
       </div>
 
-      <!--<div class="px-8 py-6 cursor-pointer">
-        <a href="#services">services.</a>
-      </div> -->
-
       <div class="px-8 py-6 cursor-pointer">
-        <a href="#contact">contact.</a>
+        <a href="#contact">contact</a>
       </div>
     </section>
   </section>
@@ -61,7 +56,7 @@
       return {
         typeValue: '',
         typeStatus: false,
-        typeArray: [ "Computer Science Student", "Software Development", "Reverse Engineering", "Self-Hosting", "Photography" ],
+        typeArray: [ "Computer Science", "Software Development", "Reverse Engineering", "Self-Hosting", "Photography" ],
         typingSpeed: 100,
         erasingSpeed: 100,
         newTextDelay: 2000,
