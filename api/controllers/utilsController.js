@@ -39,11 +39,10 @@ exports.getBooks = async (req, res) => {
 exports.postContact = async (req, res) => {
   try
   {
-
     if(!validation.verifyEmail(req.body.email)) return res.status(400).json({ message: "Email Invalid !"});
     if(!validation.verifySubject(req.body.subject)) return res.status(400).json({ message: "Subject Invalid !"});
     if(!validation.verifyMessage(req.body.message)) return res.status(400).json({ message: "Message Invalid !"});
-    if(!await validation.verifyCaptcha(req.body.captcha)) return res.status(400).json({ message: "Captcha Invalid !"});
+    if(!await validation.verifyCaptcha(req.body.captcha.token)) return res.status(400).json({ message: "Captcha Invalid !"});
 
     const transporter = nodemailer.createTransport({
       host: config.mailHost,
