@@ -19,7 +19,6 @@
   "devDependencies": {
     "@nuxtjs/axios": "latest",
     "@nuxtjs/tailwindcss": "^4.2.0",
-    "nuxt-umami": "^1.2.1",
     "postcss": "^8.3.9"
   }
 }

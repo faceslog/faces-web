@@ -37,11 +37,6 @@ ENV MAIL_USER="myuser@domain.tld"
 ENV MAIL_PASSWORD="user_password"
 ENV MAIL_FROM="noreply@domain.tld"
 ENV MAIL_TO="contact@domain.tld"
-# UMAMI Analytics
-ENV UMAMI_ENABLE=false
-ENV UMAMI_DOMAINS=mywebsite.com
-ENV UMAMI_WEBID=your-website-id
-ENV UMAMI_SCRIPTURL=https://path.to.umami.js
 
 
 CMD [ "npm", "start" ]

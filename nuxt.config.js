@@ -60,7 +60,6 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/axios',
-    ['nuxt-umami'],
   ],
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
@@ -71,15 +70,6 @@ export default {
   server: {
     port: process.env.PORT || 3000, // default: 3000
     host: process.env.HOST || 'localhost' // default: localhost
-  },
-  umami: { 
-    enable: process.env.UMAMI_ENABLE || false,
-    autoTrack: true,
-    doNotTrack: false,
-    cache: false,
-    domains: process.env.UMAMI_DOMAINS,
-    websiteId: process.env.UMAMI_WEBID,
-    scriptUrl: process.env.UMAMI_SCRIPTURL,  
   },
   // Server MiddleWare Custom Api Endpoint
   serverMiddleware: [
