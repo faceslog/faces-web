@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="lg:px-40 px-6 my-16">
+  <section id="about" class="lg:px-40 px-6 my-16 select-none">
     <!-- Bio -->
     <div class="mx-auto text-white">
       <!-- Title -->

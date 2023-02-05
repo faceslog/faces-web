@@ -1,5 +1,5 @@
 <template>
-  <section id="articles" class="lg:px-40 mb-16 px-6">
+  <section id="articles" class="lg:px-40 mb-16 px-6 select-none">
     <div>
       <!-- Title -->
       <div class="text-white text-5xl font-bold pb-12">Articles</div>

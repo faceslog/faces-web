@@ -1,14 +1,14 @@
 <template>
-  <section id="contact" class="lg:px-40 px-6">
+  <section id="contact" class="lg:px-40 px-6 select-none">
     <div>
       <!-- Title -->
-      <div class="text-5xl font-bold pb-12 text-white">Contact</div>
+      <div class="text-5xl font-bold pb-12 text-white select-none">Contact</div>
       <div class="text-white">
-        <div class="text-md font-semibold mb-5">Matrix: <span class="font-light">@faceslog:matrix.org</span></div>
-        <div class="text-md font-semibold mb-5">Mastodon: <span class="font-light">@faces@mstdn.social</span></div>
-        <div class="text-md font-semibold mb-5">Twitter: <a class="font-light underline" href="https://twitter.com/faceslog">faceslog‌‌</a></div>
-        <div class="text-md font-semibold mb-5">Discord: <span class="font-light">faceslog#6851</span></div>
-        <div class="text-md font-semibold mb-5 break-all">Session: <span class="font-light">059acd4a8253f815cb827574a62ee80a079be5145ad55309c41e9eb2d287412715</span></div>
+        <div class="text-md font-semibold mb-5">Matrix: <a class="font-light underline select-text" href="https://matrix.to/#/@faceslog:matrix.org">@faceslog:matrix.org</a></div>
+        <div class="text-md font-semibold mb-5">Mastodon: <span class="font-light select-text">@faces@mstdn.social</span></div>
+        <div class="text-md font-semibold mb-5">Twitter: <a class="font-light underline select-text" href="https://twitter.com/faceslog">faceslog</a></div>
+        <div class="text-md font-semibold mb-5">Discord: <span class="font-light select-text">faceslog#6851</span></div>
+        <div class="text-md font-semibold mb-5 break-all">Session: <span class="font-light select-text">059acd4a8253f815cb827574a62ee80a079be5145ad55309c41e9eb2d287412715</span></div>
         <div class="text-md font-semibold mb-5">Email: <span class="font-light">Please, use the form below</span></div>
       </div>      
       <!-- Email Contact Form Box -->

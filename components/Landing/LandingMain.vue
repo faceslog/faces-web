@@ -1,6 +1,6 @@
 <template>
   <!-- Landing Block -->
-  <section class="lg:flex items-center justify-evenly min-h-screen">
+  <section class="lg:flex items-center justify-evenly min-h-screen select-none">
     <section class="lg:flex">
       <!-- Profile Picture -->
       <img class="lg:flex-auto lg:inline lg:w-64 lg:h-64 lg:mt-0 w-56 h-56 mt-16 mx-auto object-cover rounded-full" src="landing/profile.webp" alt="Profile image"/>

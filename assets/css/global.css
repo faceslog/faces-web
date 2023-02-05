@@ -8,7 +8,6 @@
 
 body {
   background-color: var(--main-color);
-  user-select: none;
 }
 
 /* --- SCROLLBAR START --- */
