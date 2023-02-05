@@ -20,7 +20,7 @@ export default {
       },
       {
         property: 'og:description',
-        content: "Faceslog's website (Made with love), contact me by using the form below",
+        content: "Faceslog's website, Computer science student, I have always been passionate about technology and the endless possibilities it offers. Welcome to my world.",
         hid: 'og:description'
       },
       {
@@ -60,7 +60,18 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/axios',
+    ['nuxt-umami'],
   ],
+  // Unami Analytics Configuration Disabled by default
+  umami: {    
+    enable: false,
+    autoTrack: true,
+    doNotTrack: false,
+    cache: false,
+    domains: 'mywebsite.com,mywebsite2.com',
+    websiteId: 'your-website-id',
+    scriptUrl: 'https://path.to.umami.js',
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
