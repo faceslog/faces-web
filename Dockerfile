@@ -13,8 +13,6 @@ COPY . /usr/src/faces-webpage/
 RUN npm install
 RUN npm run build
 
-EXPOSE 3000
-
 # =======================
 # ENVIRONMENT VARIABLES
 # =======================
@@ -27,9 +25,11 @@ ENV BROWSER_BASE_URL="https://your.website.address"
 ENV BOOKSTACK_KEY=""
 ENV BOOKSTACK_API=""
 ENV BOOKSTACK_URL=""
+
 # CAPTCHA SETTINGS
 ENV HCAPTCHA_SITE_KEY=""
 ENV HCAPTCHA_SECRET_KEY=""
+
 # MAIL CONTACT FORM
 ENV MAIL_HOST="mail.domain.tld"
 ENV MAIL_PORT=587
@@ -38,5 +38,6 @@ ENV MAIL_PASSWORD="user_password"
 ENV MAIL_FROM="noreply@domain.tld"
 ENV MAIL_TO="contact@domain.tld"
 
+EXPOSE $PORT
 
 CMD [ "npm", "start" ]
